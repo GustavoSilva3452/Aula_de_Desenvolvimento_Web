@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form> <!-- form, abri um formulario -->
+        <label>Nome:</label>
+        <input type="text"><br><br>
+        <label for="">Senha:</label>
+        <input type="password"><br><br>
+        <label for="">Sugestao:</label>
+        <textarea rows="5"></textarea><br><br>
+        <select> <!-- tag que inicia um menu dropdown -->
+            <option>Aragarças/GO</option> <!-- option, serve para marcar -->
+            <option>Barra do Garças/MT</option>
+            <option>Pontal do Araguaia/MT</option>
+        </select><br><br>
+        <label>Opção: </label>
+        <label>Sim</label>
+        <input type="radio" name="opcao">
+        <label>Nao</label><br><br>
+        <input type="radio" name="opcao">
+
+        <label>Preferências: </label>
+        <label>Praia: </label>
+        <input type="checkbox"> <!-- checkbox, permite clicar em varias opcoes -->
+        <label for="">Cachoeira: </label>
+        <input type="checkbox">
+        <label for="">Águas Termais</label>
+        <input type="checkbox"><br><br>
+        <label for="email">Escreva seu e-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="appt">Selecione um Horario</label>
+        <input type="time" id="appt" name="appt"><br><br>
+        <label for="quantity">Quantidade de Botão:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="150"><br><br>
+        <button>ENVIAR</button>
+    </form>
+</body>
+</html>
